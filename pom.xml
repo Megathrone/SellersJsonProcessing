@@ -48,7 +48,7 @@
 
   </dependencies>
   <description>A simple JSON parser for sellers.json</description>
-  <groupId>yz.sellerparser</groupId>
+  <groupId>com.github.megathrone</groupId>
   <modelVersion>4.0.0</modelVersion>
 
   <properties>
