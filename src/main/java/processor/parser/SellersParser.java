@@ -26,7 +26,7 @@ public class SellersParser implements ParserMethods {
   }
 
   /**
-   * @param json
+   * @param reader
    * @return Sellers Java object
    *     <p>By using Gson library to deserialize a JSON file to Java object
    */
