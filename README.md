@@ -43,9 +43,6 @@ List<String> domains = processor.listDomainsFromFile(reader);
 Reader reader1 = Files.newBufferedReader(Paths.get(pathToYourSellersJsonFile));
 Reader reader2 = Files.newBufferedReader(Paths.get(pathToYourSellersJsonFile));
 List<Seller> commonSellers = processor.lostCommonSellers(reader1, reader2);
-
-// Load JSON data and store into MySQL
-String rawData = processor.loadJsonAndStore(yourUrl);
 ```
 
 #### Design documentations:
