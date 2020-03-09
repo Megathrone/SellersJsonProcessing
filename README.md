@@ -13,12 +13,12 @@ Add Maven dependency to pom.xml:
 <dependency>
    <groupId>com.github.megathrone</groupId>
    <artifactId>SellersJsonProcessing</artifactId>
-   <version>1.5</version>
+   <version>1.4</version>
 </dependency
 ```
 Add Gradle Groovy DSL to build.gradle:
 ```groovy
-implementation 'com.github.megathrone:SellersJsonProcessing:1.5'
+implementation 'com.github.megathrone:SellersJsonProcessing:1.4'
 ```
 API instructions:
 
