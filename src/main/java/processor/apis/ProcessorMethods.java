@@ -27,4 +27,8 @@ public interface ProcessorMethods {
   default List<Seller> listCommonSellers(@NonNull Reader json1, @NonNull Reader json2) {
     return null;
   }
+
+  default String loadJsonAndStore(@NonNull String url) {
+    return "";
+  }
 }
